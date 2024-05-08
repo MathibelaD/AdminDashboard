@@ -13,12 +13,12 @@ const links = [
   { name: 'Home', href: '/dashboard', icon: "HomeIcon" },
   {
     name: 'Menus',
-    href: '/dashboard',
+    href: '/dashboard/menus',
     icon: "UserGroupIcon",
   },
-  { name: 'Customers', href: '/', icon: "UserGroupIcon" },
-  { name: 'Announcements', href: '/', icon: "UserGroupIcon" },
-  { name: 'Staff', href: '/', icon: "UserGroupIcon" },
+  { name: 'Customers', href: '/dashboard/customers', icon: "UserGroupIcon" },
+  { name: 'Announcements', href: '/dashboard/announcements', icon: "UserGroupIcon" },
+  { name: 'Staff', href: '/dashboard', icon: "UserGroupIcon" },
   // { name: 'Admin Profile', href: '/', icon: "UserGroupIcon" },
 ];
 
