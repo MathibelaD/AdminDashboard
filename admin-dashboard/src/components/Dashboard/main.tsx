@@ -2,7 +2,6 @@
 import React, { useState } from 'react';
 import DashboardContent from './content';
 import { SettingsContent } from './settings';
-import { SideNav } from './sideNavigation';
 
 
 export const Dashboard = () => {
@@ -25,10 +24,7 @@ export const Dashboard = () => {
 
     return (
         <div className="flex">
-            <SideNav selectedNavItem={selectedNavItem} handleNavItemClick={handleNavItemClick} />
-            <div className="flex-1">
-                {renderContent()}
-            </div>
+            I dont know
         </div>
     );
 };
