@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { ChevronDownIcon, ChevronUpIcon } from '@heroicons/react/24/solid';
+import Link from "next/link";
 
 export const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -26,7 +27,7 @@ export const Header = () => {
                         {!isOpen ? <ChevronDownIcon className="w-6 h-6" /> : <ChevronUpIcon className="w-6 h-6" />}
                     </button>
                     {isOpen && <div className="absolute right-0 mt-2 w-48 bg-white border rounded-md shadow-lg">
-                        <button className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200 w-full text-left">Admin Profile</button>
+                        <Link href={'/dashboard/profile'} className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200 w-full text-left">Admin Profile</Link>
                         <button className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200 w-full text-left">Sign Out</button>
                     </div>}
                 </div>
