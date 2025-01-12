@@ -1,9 +1,10 @@
-import { InventoryFinance } from "@/components/Inventory";
+import { InventoryManagement } from "@/components/Inventory";
+
 
 export default function Page() {
     return (
         <> 
-        <InventoryFinance />
+        <InventoryManagement />
         </>
     )
 }

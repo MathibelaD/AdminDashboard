@@ -25,9 +25,9 @@ const Sidebar = () => {
     { name: 'Orders', href: '/dashboard/orders', icon: DollarSign },
     { name: 'Inventory', href: '/dashboard/inventory', icon: Calendar },
     { name: 'Reviews', href: '/dashboard/reviews', icon: Users },
-    { name: 'Staff', href: '/dashboard/staff', icon: UserCog },
-    { name: 'Analytics', href: '/dashboard/analytics', icon: BarChart2 },
-    { name: 'Announcements', href: '/dashboard/announcements', icon: Bell },
+    // { name: 'Staff', href: '/dashboard/staff', icon: UserCog },
+    // { name: 'Analytics', href: '/dashboard/analytics', icon: BarChart2 },
+    // { name: 'Announcements', href: '/dashboard/announcements', icon: Bell },
     { name: 'Settings', href: '/dashboard/settings', icon: Settings },
   ];
 
