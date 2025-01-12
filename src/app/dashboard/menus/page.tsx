@@ -1,7 +1,10 @@
+import { MenuManagement } from "@/components";
 
 
 export default function Page() {
     return (
-        <>Menus page</>
+        <>
+        <MenuManagement />
+        </>
     )
 }
