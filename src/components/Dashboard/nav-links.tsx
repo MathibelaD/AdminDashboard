@@ -24,6 +24,7 @@ const Sidebar = () => {
     { name: 'Menu Management', href: '/dashboard/menus', icon: ChefHat },
     { name: 'Orders', href: '/dashboard/orders', icon: DollarSign },
     { name: 'Inventory', href: '/dashboard/inventory', icon: Calendar },
+    { name: 'Equipment', href: '/dashboard/equipment', icon: BarChart2 },
     { name: 'Reviews', href: '/dashboard/reviews', icon: Users },
     // { name: 'Staff', href: '/dashboard/staff', icon: UserCog },
     // { name: 'Analytics', href: '/dashboard/analytics', icon: BarChart2 },
