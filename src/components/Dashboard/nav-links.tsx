@@ -23,7 +23,7 @@ const Sidebar = () => {
     { name: 'Dashboard', href: '/dashboard', icon: Home },
     { name: 'Menu Management', href: '/dashboard/menus', icon: ChefHat },
     { name: 'Orders', href: '/dashboard/orders', icon: DollarSign },
-    { name: 'Reservations', href: '/dashboard/reservations', icon: Calendar },
+    { name: 'Reviews', href: '/dashboard/reviews', icon: Calendar },
     { name: 'Customers', href: '/dashboard/customers', icon: Users },
     { name: 'Staff', href: '/dashboard/staff', icon: UserCog },
     { name: 'Analytics', href: '/dashboard/analytics', icon: BarChart2 },
